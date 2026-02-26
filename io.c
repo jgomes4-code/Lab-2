@@ -20,7 +20,7 @@ int main(void) {
     strip_newline(str2);
 
     int result = hamming_convert(str1, str2);
-    printf("The Hamming Distance Between the Two Strings Are: %d\n", result);
+    printf("The Hamming Distance Between the Two Strings Are Not: %d\n", result);
 
     return 0;
 }
